@@ -15,6 +15,8 @@
 		393298E61B9ED7F100616476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393298E51B9ED7F100616476 /* Images.xcassets */; };
 		393298E91B9ED7F100616476 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 393298E71B9ED7F100616476 /* LaunchScreen.xib */; };
 		393298F51B9ED7F100616476 /* ManageConstraintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 393298F41B9ED7F100616476 /* ManageConstraintsTests.m */; };
+		393299001B9ED87D00616476 /* ConstraintsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 393298FF1B9ED87D00616476 /* ConstraintsHelper.m */; };
+		393299031B9EDE2E00616476 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 393299021B9EDE2E00616476 /* MyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		393298EE1B9ED7F100616476 /* ManageConstraintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManageConstraintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393298F31B9ED7F100616476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		393298F41B9ED7F100616476 /* ManageConstraintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageConstraintsTests.m; sourceTree = "<group>"; };
+		393298FE1B9ED87D00616476 /* ConstraintsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintsHelper.h; sourceTree = "<group>"; };
+		393298FF1B9ED87D00616476 /* ConstraintsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintsHelper.m; sourceTree = "<group>"; };
+		393299011B9EDE2E00616476 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		393299021B9EDE2E00616476 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				393298DA1B9ED7F000616476 /* AppDelegate.m */,
 				393298DF1B9ED7F000616476 /* ViewController.h */,
 				393298E01B9ED7F000616476 /* ViewController.m */,
+				393298FE1B9ED87D00616476 /* ConstraintsHelper.h */,
+				393298FF1B9ED87D00616476 /* ConstraintsHelper.m */,
+				393299011B9EDE2E00616476 /* MyLabel.h */,
+				393299021B9EDE2E00616476 /* MyLabel.m */,
 				393298E21B9ED7F000616476 /* Main.storyboard */,
 				393298E51B9ED7F100616476 /* Images.xcassets */,
 				393298E71B9ED7F100616476 /* LaunchScreen.xib */,
@@ -222,9 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393299031B9EDE2E00616476 /* MyLabel.m in Sources */,
 				393298DB1B9ED7F000616476 /* AppDelegate.m in Sources */,
 				393298DE1B9ED7F000616476 /* ManageConstraints.xcdatamodeld in Sources */,
 				393298E11B9ED7F000616476 /* ViewController.m in Sources */,
+				393299001B9ED87D00616476 /* ConstraintsHelper.m in Sources */,
 				393298D81B9ED7F000616476 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
